@@ -14,11 +14,11 @@ MLOps-KET supports interact with the MLOps knowledge data in a Neo4j database th
 - Run Docker Compose to build and start all components: `docker-compose up --build`
 - Connect to the Neo4j database (provide protocal, URI, database name, username, and password)
   - You can start a Neo4j container like this:
-    `docker run \
+    ```docker run \
     --publish=7474:7474 --publish=7687:7687 \
     --volume=$HOME/neo4j/data:/data \
     --volume=$HOME/neo4j/logs:/logs \
-    neo4j:latest`
+    neo4j:latest```
   - The Neo4j URI should be `neo4j://database:7687`
 - Upload the MLOps knowledge documents (in the `documents` folder)
   - `findings.txt`: Our empirical study findings
