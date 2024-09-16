@@ -22,7 +22,7 @@ MLOps-KET supports interact with the MLOps knowledge data in a Neo4j database th
   - The Neo4j URI should be `neo4j://database:7687`
 - Upload the MLOps knowledge documents (in the `documents` folder)
   - `findings.txt`: Our empirical study findings
-  - `mlops_posts_data.csv` and `mlops_issues_data.csv`: SO posts and GH issues related to MLOps
+  - `posts_data.xls` and `issues_data.xls`: SO posts and GH issues related to MLOps
   - `online.docx`: Online documentation related to MLOps 
 - Click `Generate Graph` to turn MLOps knowledge documents into structured knowledge graphs using Llama 3 model
 - After prossing, the MLOps knowledge has been stored in the Neo4j database
@@ -31,3 +31,9 @@ MLOps-KET supports interact with the MLOps knowledge data in a Neo4j database th
 - Support view graph and retrive metadata about the source of response to the queries
 
 ## Usage examples
+- MLOps-KET interface 
+![ket-1](https://github.com/user-attachments/assets/5dfcc122-c712-4ac2-85f6-2da88d5ce110)
+- View the generated knowledge graph
+![ket-2](https://github.com/user-attachments/assets/17d6967a-d170-4311-a563-846e46e1e95c)
+- Chat with MLOps-KET
+![ket-3](https://github.com/user-attachments/assets/86b645a5-8f36-4b63-8767-34eea2140e58)
