@@ -25,7 +25,7 @@ MLOps-KET supports interact with the MLOps knowledge data in a Neo4j database th
   - `posts_data.xls` and `issues_data.xls`: SO posts and GH issues related to MLOps
   - `online.docx`: Online documentation related to MLOps 
 - Click `Generate Graph` to turn MLOps knowledge documents into structured knowledge graphs using Llama 3 model
-- After prossing, the MLOps knowledge has been stored in the Neo4j database
+- After processing, the MLOps knowledge has been stored in the Neo4j database
 - Ask any questions related to MLOps, the chatbot search the knowledge graph database, and combine the query and retrieved data as input
 - Llama 3 model generate answer according to the input
 - Support view graph and retrive metadata about the source of response to the queries
